@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #000; /* Set font color to black */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+/* Brand and Links */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+/* Active Link */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff !important;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h2 {
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse; /* Ensure borders don't overlap */
+    width: 100%; /* Ensure the table takes the full width of its container */
+}
+
+.table th,
+.table td {
+    padding: 10px; /* Add padding for better spacing */
+    border: 1px solid #dee2e6; /* Add border for separation */
+}
+
+.table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table td {
+    color: #333; /* Dark gray for better contrast */
+}
+
+
+
+
+/* Form Styles */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+    margin-bottom: 20px;
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+}
